@@ -12,7 +12,7 @@ from torch.utils.data import TensorDataset, DataLoader
 import joblib
 from sklearn.manifold import TSNE
 
-train_file = "data/cosmicclassifierTraining.csv"
+train_file = "cosmic-classifier-cogni25\data\cosmicclassifierTraining.csv"
 data = pd.read_csv(train_file)
 print("Initial data shape:", data.shape)
 print(data.head())
